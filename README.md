@@ -40,6 +40,7 @@ I coded the ESP-32 a System On a Chip (SOC) connected to a relay module along wi
 2. **Configuring Backend...** 
     - Install required dependencies <br/><br/>
     Move to the web folder and on the terminal paste the following command to install all required libraries.
+<br/><br/>
     ```bash
     npm install
     ```
