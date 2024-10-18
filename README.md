@@ -32,3 +32,5 @@ I coded the ESP-32 a System On a Chip (SOC) connected to a relay module along wi
 <img src="./assets/workflow.jpg" height="1000px" />
 
 
+## Make this project your own and automate the home.
+##### follow the following simple steps...
