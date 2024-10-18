@@ -35,16 +35,16 @@ I coded the ESP-32 a System On a Chip (SOC) connected to a relay module along wi
 ## Make this project your own and automate the home.
 ### follow these simple steps...
 
-1. Download the code from this Repository.
+1. **Download the code from this Repository.**
 
-2. Configuring Backend... 
+2. **Configuring Backend...** 
     - Install required dependencies <br/><br/>
     Move to the web folder and on the terminal paste the following command to install all required libraries.
     ```bash
     npm install
     ```
 
-    - Connect the MongoDB 
+    - Connect the MongoDB <br/><br/>
      <img src="./assets/db_config.png" height="400px" /> <br/><br/>
      here add your database connection string in same format and remember the username and password from mongo.
 
@@ -52,14 +52,14 @@ I coded the ESP-32 a System On a Chip (SOC) connected to a relay module along wi
      In the env file place your username, password, port number and the hashing number (recommended 8-12).
      Do the same when deploying by providing these as environment variables.
     
-3. Configuring Frontend...
+3. **Configuring Frontend...**
 
     - Putting in origin URL. <br/><br/>
      Move to the components folder under src in Client and open Relay.tsx file. Now under the Origin field paste your URL origin where Backend was deployed.
      example : Home_automation_Backend.com
     <img src="./assets/url_config.png" height="400px" />
 
-4. Configure the ESP32 code.
+4. **Configure the ESP32 code.**
 
     - Putting in origin URL.
     <img src="./assets/espurl_config.png" height="200px" /> <br/><br/>
