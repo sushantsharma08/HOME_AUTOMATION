@@ -38,12 +38,14 @@ I coded the ESP-32 a System On a Chip (SOC) connected to a relay module along wi
 1. Download the code from this Repository.
 
 2. Configuring Backend... 
-    - Install required dependencies 
+    - Install required dependencies <br/>
     Move to the web folder and on the terminal paste the following command to install all required libraries.
-    ```npm install```
+    ```bash
+    npm install
+    ```
 
-    - Connect the MongoDB
-     <img src="./assets/db_config.png" height="400px" />
+    - Connect the MongoDB 
+     <img src="./assets/db_config.png" height="400px" /> <br/>
      here add your database connection string in same format and remember the username and password from mongo.
 
     - Configure the env file
@@ -52,7 +54,7 @@ I coded the ESP-32 a System On a Chip (SOC) connected to a relay module along wi
     
 3. Configuring Frontend...
 
-    - Putting in origin URL.
+    - Putting in origin URL. <br/>
      Move to the components folder under src in Client and open Relay.tsx file. Now under the Origin field paste your URL origin where Backend was deployed.
      example : Home_automation_Backend.com
     <img src="./assets/url_config.png" height="400px" />
@@ -60,17 +62,16 @@ I coded the ESP-32 a System On a Chip (SOC) connected to a relay module along wi
 4. Configure the ESP32 code.
 
     - Putting in origin URL.
-    <img src="./assets/espurl_config.png" height="200px" />
+    <img src="./assets/espurl_config.png" height="200px" /> <br/>
     Remove this part and paste your URL origin where Backend was deployed. Similar to the previous part.
 
     - Adding WIFI credentials.
-    <img src="./assets/wifi_config.png" height="200px" />
+    <img src="./assets/wifi_config.png" height="200px" /> <br/>
     Add your network details here.
 
-    - Setting up ESP32 and relay.
+    - Setting up ESP32 and relay. <br/>
     Connect the relay pins to same pins mentioned in the code.
 
 
 ## Final project preview
-
-    <img src="./assets/Complete.jpeg" height="800px" />
+<img src="./assets/Complete.jpeg" height="800px" />
