@@ -1,5 +1,5 @@
-# Auto-Home
-A project for home automation.
+# Home_Automation
+A project for home automation. This is the dummy project of the original, some code changes have been made for the purpose of data security. Developers tryping to copy this project just have to make minor changes to adjust this to there own requirements.
 
 ## Description
 welcome to this project where I have combined the <b> Electronics </b> of a house with my <b>Computer Science </b> knowledge to automate it. <br/>
@@ -30,3 +30,5 @@ I coded the ESP-32 a System On a Chip (SOC) connected to a relay module along wi
 
 ## Project Plan
 <img src="./assets/workflow.jpg" height="1000px" />
+
+
